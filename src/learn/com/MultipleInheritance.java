@@ -1,17 +1,17 @@
 package learn.com;
 
-interface PI1{
+interface Chunnu{
 	default void show() {
-		System.out.println("its PI1");
+		System.out.println("its chunnu's interface");
 	}
 }
 
-interface PI2{
+interface Munnu{
 	default void show() {
-		System.out.println("its PI2");
+		System.out.println("its munnu's interface");
 	}
 }
-public class MultipleInheritance implements PI1, PI2 {
+public class MultipleInheritance implements Chunnu, Munnu {
 
 	public static void main(String[] args) {
 		MultipleInheritance obj = new MultipleInheritance();
@@ -21,8 +21,8 @@ public class MultipleInheritance implements PI1, PI2 {
 	@Override
 	public void show() {
 		// TODO Auto-generated method stub
-		PI1.super.show();
-		PI2.super.show();
+		Chunnu.super.show();
+		Munnu.super.show();
 	}
 
 }
