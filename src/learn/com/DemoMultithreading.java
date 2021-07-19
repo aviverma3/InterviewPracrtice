@@ -5,7 +5,7 @@ class Car extends Thread{
 		for(int i = 0 ; i<5 ; i++) {
 			System.out.println("Car");
 			try {
-				Thread.sleep(100);
+				Thread.sleep(200);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -20,7 +20,7 @@ class Bike  extends Thread{
 		for(int i = 0 ; i<5 ; i++) {
 			System.out.println("Bike");
 			try {
-				Thread.sleep(100);
+				Thread.sleep(200);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
