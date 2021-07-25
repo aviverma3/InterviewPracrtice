@@ -1,4 +1,4 @@
-package learn.com;
+package learn.com.misc;
 
 interface Car1{
 	public default void show() {

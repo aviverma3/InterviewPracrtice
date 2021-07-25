@@ -1,4 +1,4 @@
-package learn.com;
+package learn.com.misc;
 
 public class MyLinkedList {
 	

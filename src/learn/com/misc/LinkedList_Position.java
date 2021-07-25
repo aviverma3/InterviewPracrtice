@@ -1,4 +1,4 @@
-package learn.com;
+package learn.com.misc;
 
 //Java implementation to insert node
 //at the middle of the linked list

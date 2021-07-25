@@ -1,4 +1,4 @@
-package learn.com.comparatorAndComaparable;
+package learn.com.misc.comparatorAndComaparable;
 
 import java.util.*;  
 import java.io.*;  
