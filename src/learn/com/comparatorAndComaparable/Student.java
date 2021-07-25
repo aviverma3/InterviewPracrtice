@@ -1,4 +1,4 @@
-package learn.com;
+package learn.com.comparatorAndComaparable;
 
 
 class Student implements Comparable<Student>{
@@ -6,6 +6,10 @@ class Student implements Comparable<Student>{
 	 private int age;
 	 private String name;
 	
+	 Student(){
+		 
+	 }
+	 
 	Student(int rollNum, int age, String name){
 		this.rollNum = rollNum;
 		this.age = age;

@@ -1,4 +1,4 @@
-package learn.com;
+package learn.com.comparatorAndComaparable;
 
 import java.util.*;  
 import java.io.*;  
@@ -14,6 +14,8 @@ public class Test_Sorting_Comparable {
 			al.add(new Student(103, 24, "Ramesh"));
 			al.add(new Student(104, 30, "Vinay"));
 			
+			System.out.println("Sorted by Age:");
+			System.out.println();
 			Collections.sort(al);
 			for(Student bl:al) {
 				System.out.println(bl.getRollNum()+" "+bl.getName()+" "+bl.getAge()); 
