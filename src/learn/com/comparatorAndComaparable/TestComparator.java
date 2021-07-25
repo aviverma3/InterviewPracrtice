@@ -1,4 +1,4 @@
-package learn.com.misc.comparatorAndComaparable;
+package learn.com.comparatorAndComaparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package learn.com.misc.comparatorAndComaparable;
+package learn.com.comparatorAndComaparable;
 
 
 class Student implements Comparable<Student>{
